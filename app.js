@@ -1,13 +1,13 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-const element = (
-  <h1>
-    Hello, World!
-  </h1>
-);
+class Element extends React.Component {
+  render() {
+    return <div>Hello {this.props.name}</div>;
+  }
+}
 
 ReactDOM.render(
-  element,
+  <Element name='Tester'/>,
   document.getElementById('root')
 );
