@@ -1,0 +1,22 @@
+{
+  "name": "react-glup",
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babelify": "latest",
+    "browserify": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify --debug -t [ babelify --presets [ es2015 react ] ] app.js --outfile bundle.js",
+    "start": "python3 -m http.server 9999"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0"
+  }
+}
