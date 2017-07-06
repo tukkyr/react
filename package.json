@@ -7,11 +7,12 @@
     "babelify": "latest",
     "browserify": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "flux": "latest"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify --debug -t [ babelify --presets [ es2015 react ] ] app.js --outfile bundle.js",
+    "build": "browserify --debug -t [ babelify --presets [ es2015 react ] ] src/root.js --outfile bundle.js",
     "start": "python3 -m http.server 9999"
   },
   "author": "",
