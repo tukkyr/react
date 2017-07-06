@@ -8,7 +8,8 @@
     "browserify": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "flux": "latest"
+    "flux": "latest",
+    "immutable": "latest"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
